@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conectar.css">
+    <title>Home</title>
+</head>
+<body>
+    <footer>
+        <div class="card">
+            <h2>Login</h2><br>
+            <input type="email" class="nome" id="email" onchange="validarFields()">
+            <div class="error" id="email-error">Email invalido</div> 
+
+            <input type="password" class="nome" id="senha" onchange="validarFields()">
+            <div class="error" id="senha-error">senha invalido</div> 
+
+       
+        <button type="submit" class="redefinir" id="recover-senha" disabled ="true">Esqueci a senha</button>
+        <button type="submit" class="btnn" id="login-button" disabled ="true">Login</button>
+                
+        </div>
+    </footer>
+
+    <script src="conectar.js"></script>
+</body>
+</html>
